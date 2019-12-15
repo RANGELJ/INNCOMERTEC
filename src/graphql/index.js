@@ -1,0 +1,5 @@
+import { makeExecutableSchema } from 'graphql-tools';
+import types from './types';
+import resolvers from './resolvers';
+
+module.exports = makeExecutableSchema({ typeDefs: types, resolvers });
