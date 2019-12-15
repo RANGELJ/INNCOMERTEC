@@ -3,3 +3,4 @@
 - Express.js
 - GraphQL
 - Babel
+- ESLint
